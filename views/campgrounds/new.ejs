@@ -1,0 +1,18 @@
+<% include ../partials/header %>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <form class="box" action="/campgrounds" method="POST">
+            <h1>Create New Campground</h1>
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <input type="text" name="image" id="image" placeholder="Image URL" required>
+            <input type="number" name="cost" id="cost" placeholder="9.99" min="0.10" step="0.10" required>
+            <input type="text" name="description" id="description" placeholder="Description">
+            <button type="submit">Submit</button>
+            <hr>
+            <a class="back" href="/campgrounds">Go Back</a>
+        </form>
+    </div>
+</div>
+
+<% include ../partials/footer %>

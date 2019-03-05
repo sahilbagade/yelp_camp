@@ -1,0 +1,193 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.unsplash.com/photo-1487064835902-6f99ba5baa5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDk0fQ&auto=format&fit=crop&w=917&q=80");
+  background-size: cover;
+	background-position: center;
+}
+
+.navbar {
+  opacity: 0.9;
+}
+
+.jumbotron {
+  background: rgba(204, 204, 204, 0.5);
+  box-shadow: 0 8px 16px -6px black;
+  padding: 4rem 2rem;
+}
+
+#tent {
+  color: #092340;
+}
+
+.search-box {
+  position: absolute;
+  background: #e9ecef;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search-box:hover > .search-txt {
+  width: 210px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+  display: none;
+}
+
+.search-btn {
+  color: #004085;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #004085;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 0px;
+}
+
+@media (min-width: 576px) {
+  .card1 img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+}
+
+.title1 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.box {
+  width: 600px;
+  padding: 20px;
+  margin: 40px auto;
+  position: relative;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 8px 16px -6px black;
+  text-align: center;
+}
+
+.box h1 {
+  color: white;
+  font-weight: 500;
+}
+
+.box input[type="text"], .box input[type="password"], .box input[type="number"] {
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type="text"]:focus, .box input[type="password"]:focus, .box input[type="number"]:focus {
+  width: 300px;
+  border-color: #2ecc71;
+}
+
+.box button {
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box button:hover {
+  background: #2ecc71;
+}
+
+.box p {
+  float: left;
+}
+
+ .box .back {
+  float: right;
+}
+
+.container-login {
+  margin-bottom: 7%;
+}
+
+.scrollbar {
+  background: #4a666e40;
+  box-shadow: 0 8px 16px -6px black;
+  padding: 10px 10px;
+  height: 300px;
+  width: 100%;
+  overflow-y: scroll;
+  margin-bottom: 5%;
+}
+
+#style1::-webkit-scrollbar {
+  width: 6px;
+  height: 0px;
+}
+
+#style1::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+#style1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.button1 {
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  background: rgba(204, 204, 204, 0.5);
+  box-shadow: 0 8px 16px -6px black;
+}
+
+.delete-form {
+    display: inline-block; 
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
