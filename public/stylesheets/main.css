@@ -86,11 +86,22 @@ body {
 .box {
   width: 600px;
   padding: 20px;
-  margin: 40px auto;
   position: relative;
   background: rgba(0, 0, 0, 0.7);
   box-shadow: 0 8px 16px -6px black;
   text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .box {
+    width: 600px;
+    padding: 20px;
+    margin: 100px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 8px 16px -6px black;
+    text-align: center;
+  }
 }
 
 .box h1 {
@@ -154,7 +165,7 @@ body {
   height: 300px;
   width: 100%;
   overflow-y: scroll;
-  margin-bottom: 5%;
+  margin-bottom: 100px;
 }
 
 #style1::-webkit-scrollbar {
@@ -186,8 +197,15 @@ body {
     position: absolute;
     width: 100%;
     background-color: white;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
 }
 
 .container .text-muted {
   margin: 20px 0;
+}
+
+#campground-grid {
+  margin-bottom: 70px;
 }
